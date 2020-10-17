@@ -1,6 +1,6 @@
 var express = require("express");
 
-var PORT = 8000;
+var PORT = procss.env.PORT || 8000;
 var app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
